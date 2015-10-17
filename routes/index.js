@@ -1,9 +1,13 @@
-var express = require('express');
-var router = express.Router();
+(function () {
+  "use strict";
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+  let express = require('express')
+    , router = express.Router();
 
-module.exports = router;
+  /* GET home page. */
+  router.get('/', function(req, res, next) {
+    res.render('index', { title: 'Express' });
+  });
+
+  module.exports = router;
+})();
