@@ -2,7 +2,10 @@ doctype html
 html
   head
     title= title
-    link(rel="stylesheet", href="/css/style.css")
+    script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+    script(type="text/javascript", src="/library/bootstrap/js/bootstrap.js")
+    link(rel="stylesheet", href="/library/bootstrap/css/bootstrap.css")
+    link(rel="stylesheet", href="/library/bootstrap/css/bootstrap.css.map")
   body
     block content
     script(type="text/javascript", src="/build/bundle.js")
