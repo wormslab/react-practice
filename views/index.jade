@@ -1,7 +1,6 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  div#left-input
-  div#right-input
+  div.flex-container.flex-row.justify-center.flex-wrap(style="flex-grow: 1;")
+    div#left-container.flex-container.flex-row.justify-center.flex-wrap(style="flex-grow: 1;")
+    div#right-container.flex-container.flex-row.justify-center.flex-wrap(style="flex-grow: 1;")

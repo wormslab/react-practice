@@ -6,7 +6,7 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.css$/, loader: "style!css" },
+            { test: /\.less$/, loader: "style!css!less" },
             { test: /\.jsx?$/, exclude: /(node_modules|bower_components)/, loader: 'babel' }
         ]
     }
