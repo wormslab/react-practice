@@ -7,6 +7,6 @@
 
   require("../css/site.less");
 
-  ReactDOM.render(<InputArea ace="left-input" />, document.getElementById('left-container'));
-  ReactDOM.render(<InputArea ace="right-input" />, document.getElementById('right-container'));
+  ReactDOM.render(<InputArea ace="left-input" desc="ORIGINAL TEXT"/>, document.getElementById('left-container'));
+  ReactDOM.render(<InputArea ace="right-input" desc="CHANGED TEXT"/>, document.getElementById('right-container'));
 })();

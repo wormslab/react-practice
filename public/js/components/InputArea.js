@@ -11,7 +11,9 @@
     render: function() {
       return (
         <div className="text-box">
-          <div className="text-label">{this.props.ace}</div>
+          <div className="text-label">
+            <span className="label label-default">{this.props.desc}</span>
+          </div>
           <div id={this.props.ace} className="input-textarea"></div>
         </div>
       );
